@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravanan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #0f0f0f;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #ff00ff, #7700ff);
+            color: white;
+            border-bottom: 5px solid #ff00ff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            background: #ff00ff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #ff00ff;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            margin: 0 auto;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff00ff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>C. Saravanan</h1>
+        <p>Frontend Developer | Passionate about Web Technologies</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="section container">
+        <h2 class="section-title">About Me</h2>
+        <p>Innovative and detail-oriented Frontend Developer passionate about creating modern and user-friendly web applications.</p>
+    </section>
+    
+    <section id="skills" class="section container">
+        <h2 class="section-title">Skills</h2>
+        <div class="cards">
+            <div class="card">HTML & CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">React JS</div>
+            <div class="card">MySQL</div>
+            <div class="card">Java</div>
+        </div>
+    </section>
+    
+    <section id="experience" class="section container centered">
+        <h2 class="section-title">Experience</h2>
+        <div class="card">
+            <p>Sales Executive (PPC), Coimbatore (Dec 2023 - Apr 2024)</p>
+            <p>Developed and implemented sales training programs.</p>
+            <p>Improved sales effectiveness by 75%.</p>
+        </div>
+    </section>
+    
+    <section id="education" class="section container">
+        <h2 class="section-title">Education</h2>
+        <div class="cards">
+            <div class="card">SSLC - 75%</div>
+            <div class="card">HSC - 55.16%</div>
+            <div class="card">B.Sc Computer Science - 73%</div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section container centered">
+        <h2 class="section-title">Contact</h2>
+        <div class="card">
+            <p>Email: <a href="mailto:Saravanan4147775@gmail.com">Saravanan4147775@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/saravanan-c-086107245" target="_blank">Saravanan LinkedIn</a></p>
+            <p>Location: Theni, Tamil Nadu</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 C. Saravanan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
